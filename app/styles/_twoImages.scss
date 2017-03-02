@@ -5,6 +5,9 @@
 		padding:0;
 		margin: 0;
 	}
+	.nest-parallax {
+		background: #e6e6e6;
+	}
 	.parallax { 
     /* The image used */
     background-image: url("../images/paralax.jpg");
@@ -13,7 +16,6 @@
     height: 100%;
 
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

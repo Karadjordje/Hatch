@@ -1,3 +1,6 @@
+$(document).ready(function(){
+
+
 /* Set the width of the side navigation to 250px */
 function openNav() {
     document.getElementById('mySidenav').style.width = '350px';
@@ -8,12 +11,11 @@ function closeNav() {
 }
 
 
-$('.carousel').carousel({
-    pause: 'false';
-    interval: 100;
+var $ = jQuery.noConflict();
+$(window).scroll(function(){
+  var scroll = $(this).scrollTop();
+  $('.parallax').css({'background-position':'25px '+scroll/11+'px'});
 });
 
-$('.carousel').carousel({
-  
-});
 
+});
