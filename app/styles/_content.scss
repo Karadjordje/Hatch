@@ -1,0 +1,14 @@
+#content {
+	padding: 0;
+	margin:0;
+	.left {
+		background: #aaa;
+		float: left;
+		width: 91%;
+	}
+	.right {
+		background: cyan;
+		overflow: hidden;
+		padding-top: 15em;
+	}
+}
