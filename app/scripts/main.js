@@ -1,4 +1,4 @@
-$(document).ready(function(){
+
 
 
 /* Set the width of the side navigation to 250px */
@@ -18,4 +18,15 @@ $(window).scroll(function(){
 });
 
 
+
+$('.changeImageOne').hover(function(){
+	$('#changeThisImage').attr('src','images/pinkgirl.jpg');
+});
+
+$('.changeImageTwo').hover(function(){
+	$('#changeThisImage').attr('src','images/mouthgirl.jpg');
+});
+
+$('.changeImageThree').hover(function(){
+	$('#changeThisImage').attr('src','images/yellowhair.jpg');
 });
