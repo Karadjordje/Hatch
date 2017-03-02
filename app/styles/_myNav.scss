@@ -3,7 +3,7 @@
         height: 100%; /* 100% Full-height */
         width: 0; /* 0 width - change this with JavaScript */
         position: fixed; /* Stay in place */
-        z-index: 1; /* Stay on top */
+        z-index: 101; /* Stay on top */
         top: 0;
         right: 0;
         background-color: #fff; /* Black*/
@@ -35,6 +35,7 @@
         top: 20px;
         right: 3%;
         position: fixed;
+        z-index: 100;
     }
     .myMenu {
         font-size: 16px;
@@ -43,6 +44,17 @@
         position:fixed;
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
+        z-index: 100;
+    }
+    .myLogo {
+        position:absolute;
+        top: 4%;
+        left: 5%;
+        color: #fff;
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        z-index: 100;
     }
 }
     

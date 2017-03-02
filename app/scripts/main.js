@@ -6,3 +6,14 @@ function openNav() {
 function closeNav() {
     document.getElementById('mySidenav').style.width = '0';
 }
+
+
+$('.carousel').carousel({
+    pause: 'false';
+    interval: 100;
+});
+
+$('.carousel').carousel({
+  
+});
+
