@@ -34,7 +34,7 @@ $('.owl-carousel').owlCarousel({
     loop:true,
     margin:0,
     nav:true,
-    navText: ["<img src='images/leftarrow.png'>","<img src='images/rightarrow.png'>"],
+    navText: ['<img src=\'images/leftarrow.png\'>','<img src=\'images/rightarrow.png\'>'],
     dots:false,
     autoplay: true,
     autoplayTimeout:1000,
@@ -61,7 +61,7 @@ var map;
     map = new google.maps.Map(document.getElementById('map'), {
       center: {lat: 37.78869, lng: -122.4076},
       zoom: 13,
-      styles: [{"featureType":"all","elementType":"all","stylers":[{"invert_lightness":true},{"saturation":10},{"lightness":30},{"gamma":0.5},{"hue":"#435158"}]}],
+      styles: [{'featureType':'all','elementType':'all','stylers':[{'invert_lightness':true},{'saturation':10},{'lightness':30},{'gamma':0.5},{'hue':'#435158'}]}],
       scrollwheel:  false,
       disableDefaultUI: true
 
