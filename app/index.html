@@ -247,11 +247,15 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-6">
-                    
+                <div class="col-md-6 maps">
+                    <div id="map"></div>
                 </div>
             </div>
         </section>
+        
+        <footer class="container-fluid">
+            
+        </footer>
 
     </div>
 
@@ -293,6 +297,10 @@
     
     <!-- build:js scripts/main.js -->
     <script src="/bower_components/lightslider/dist/js/lightslider.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUGRcijD1W9U83FI7C6vAFoiklGwAVPzA&callback=initMap"
+    async defer></script>
+
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
   </body>

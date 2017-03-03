@@ -99,3 +99,26 @@ $(document).ready(function() {
         onBeforePrevSlide: function (el) {}
     });
 });
+
+
+
+var map;
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 37.78869, lng: -122.4076},
+      zoom: 13,
+      styles: [{"featureType":"all","elementType":"all","stylers":[{"invert_lightness":true},{"saturation":10},{"lightness":30},{"gamma":0.5},{"hue":"#435158"}]}],
+      scrollwheel:  false,
+      disableDefaultUI: true
+
+
+
+    });
+
+    var marker = new google.maps.Marker({
+      position: {lat: 37.78869, lng: -122.4076},
+      map: map,
+      title: 'Hatch',
+    });
+
+  }
