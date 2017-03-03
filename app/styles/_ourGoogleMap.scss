@@ -1,0 +1,48 @@
+#ourGoogleMap {
+	margin: 0;
+	padding: 0;
+	.row {
+		padding: 0;
+		margin: 0;
+		.col-md-6 {
+			padding: 0;
+			margin: 0;
+		}
+	}
+	h3 {
+		font-family: 'Noto Sans', sans-serif;
+		font-size: 13px;
+		font-weight: 900;
+		text-shadow: 1px 0 #888888;
+		letter-spacing:1px;
+	}
+	h2 {
+		font-family: 'Noto Sans', sans-serif;
+		font-size: 20px;
+		padding: 2em 0em;
+		font-weight: bold;
+	}
+	.ourInfo {
+		height: 365px;
+		background: #00cfdc;
+		padding-top: 5.5em !important;
+		padding-left: 4em !important;
+		ul {
+			list-style: none;
+			li {
+				font-family: 'Noto Sans', sans-serif;
+				color: #fff;
+				font-size: 11px;
+				font-weight: bold;
+			}
+		}
+		.socialList {
+    		li {
+    			font-size: 11px;
+    			display: inline-block;
+    			*display: inline;
+    			zoom: 1; //For IE6/7, zoom: 1 provides hasLayout. Having "layout" is a prerequisite for display: inline-block to always work.
+    		}
+		}
+	}
+}

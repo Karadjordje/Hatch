@@ -20,10 +20,10 @@
 		background: #000;
 		color: #fff;
 		ul {
-			padding-top: 6.5em !important;
 			list-style: none;
 			padding: 0;
 			margin: 0;
+			padding-top: 6.5em !important;
 			display: inline-block;
     		*display: inline;
     		zoom: 1; //For IE6/7, zoom: 1 provides hasLayout. Having "layout" is a prerequisite for display: inline-block to always work.
