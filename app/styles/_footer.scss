@@ -1,0 +1,27 @@
+#footer {
+	background: #000;
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 3.5em 0 2.5em 0;
+    	li {
+    		display: inline-block;
+    		*display: inline;
+    		zoom: 1; //For IE6/7, zoom: 1 provides hasLayout. Having "layout" is a prerequisite for display: inline-block to always work.
+    		color: #fff;
+    		font-family: 'Montserrat', sans-serif;
+			font-weight: bold;
+			font-size: 11px;
+			padding-right: 0.5em;
+			
+
+    	}
+	}
+	h4 {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		margin: 0;
+		font-size: 11px;
+		color: rgb(129, 129, 129);
+	}
+}

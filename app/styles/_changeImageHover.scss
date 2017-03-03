@@ -20,6 +20,13 @@
 				top: 50%;
 				left:19.5%;
 				transform: translate(-19.5%,-50%);
+				@media screen and (max-width: 650px) {
+					top: 48%;
+				}
+				@media screen and (max-width: 350px) {
+					top: 43%;
+					left:21%;
+				}
 			}
 			p {
 				font-family: 'Montserrat', sans-serif;
@@ -28,9 +35,12 @@
 				padding: 0;
 				margin: 0;
 				position: absolute;
-				top: 56%;
+				top: 60%;
 				left:35%;
 				transform: translate(-35%,-60%);
+				@media screen and (max-width: 700px) {
+					left:30%;
+				}
 			}
 			.container-fluid {
 				padding: 0;
@@ -58,7 +68,7 @@
 					padding: 0;
 					margin: 0;
 					position: absolute;
-					top: 56%;
+					top: 57%;
 					left:19%;
 					transform: translate(-17%,-50%);
 				}

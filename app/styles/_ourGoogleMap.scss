@@ -27,6 +27,12 @@
 		background: #00cfdc;
 		padding-top: 5.5em !important;
 		padding-left: 4em !important;
+		@media screen and (max-width: 360px) {
+			padding-left: 0em !important;
+		}
+		@media screen and (max-width: 300px) {
+			padding-left: 0em !important;
+		}
 		ul {
 			list-style: none;
 			li {
