@@ -11,10 +11,14 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link type="text/css" rel="stylesheet" href="/bower_components/lightslider/dist/css/lightslider.css" />
+    <!-- <link type="text/css" rel="stylesheet" href="/bower_components/lightslider/dist/css/lightslider.css" /> -->
+    <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
+
 
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.css" />
+    <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.theme.default.css" />
     <!-- endbower -->
     <!-- endbuild -->
     
@@ -182,38 +186,18 @@
 
         <section id="imageSlider" class="container-fluid">
             
-            <ul id="lightSlider">
-                <li>
-                    <img src="images/slider1.jpg" />
-                </li>
-                <li>
-                    <img src="images/slider2.jpg" />
-                </li>
-                <li>
-                    <img src="images/slider3.jpg" />
-                </li>
-                <li>
-                    <img src="images/slider4.jpg" />
-                </li>
-                <li>
-                    <img src="images/slider5.jpg" />
-                </li>
-                <li>
-                    <img src="images/slider6.jpg" />
-                </li>
-                    <li>
-                    <img src="images/slider7.jpg" />
-                </li>
-                <li>
-                    <img src="images/slider8.jpg" />
-                </li>
-                <li>
-                    <img src="images/slider9.jpg" />
-                </li>
-                <li>
-                    <img src="images/slider10.jpg" />
-                </li>
-            </ul>
+<div class="owl-carousel owl-theme">
+    <div class="item test"><img src="images/slider1.jpg" /></div>
+    <div class="item test"><img src="images/slider2.jpg" /></div>
+    <div class="item test"><img src="images/slider3.jpg" /></div>
+    <div class="item test"><img src="images/slider4.jpg" /></div>
+    <div class="item test"><img src="images/slider5.jpg" /></div>
+    <div class="item test"><img src="images/slider6.jpg" /></div>
+    <div class="item test"><img src="images/slider7.jpg" /></div>
+    <div class="item test"><img src="images/slider8.jpg" /></div>
+    <div class="item test"><img src="images/slider9.jpg" /></div>
+    <div class="item test"><img src="images/slider10.jpg" /></div>
+</div>
 
         </section>
 
@@ -286,6 +270,7 @@
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/tether/dist/js/tether.js"></script>
     <script src="/bower_components/modernizr/modernizr.js"></script>
+    <script src="/bower_components/owl.carousel/dist/owl.carousel.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     
@@ -304,7 +289,8 @@
     <!-- endbuild -->
     
     <!-- build:js scripts/main.js -->
-    <script src="/bower_components/lightslider/dist/js/lightslider.js"></script>
+    <!-- <script src="/bower_components/lightslider/dist/js/lightslider.js"></script> -->
+    <script src="/bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUGRcijD1W9U83FI7C6vAFoiklGwAVPzA&callback=initMap"
     async defer></script>
