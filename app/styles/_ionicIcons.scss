@@ -1,0 +1,57 @@
+#ionicIcons {
+	padding: 0;
+	margin: 0;
+	.row {
+		margin: 0;
+		padding: 0;
+		.col-md-4 {
+			margin: 0;
+			padding: 0;
+		}
+		.rainbowShoe {
+			img {
+				height: 400px;
+				width: 100%;
+			}
+		}
+	}
+	.ionicIcons {
+		height: 400px;
+		background: #000;
+		color: #fff;
+		ul {
+			padding-top: 6.5em !important;
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			display: inline-block;
+    		*display: inline;
+    		zoom: 1; //For IE6/7, zoom: 1 provides hasLayout. Having "layout" is a prerequisite for display: inline-block to always work.
+			li{
+				&:nth-child(odd) {
+					font-size: 28px;
+					color: #fff;
+				}
+				&:nth-child(even) {
+					color: #fff;
+					font-family: 'Montserrat', sans-serif;
+					font-weight: bold;
+					font-size: 11px;
+				}
+			}			
+		}
+	}
+	.ionicText {
+		height: 400px;
+		background: #000;
+		color: #fff;
+		h3 {
+			font-family: 'Montserrat', sans-serif;
+			font-size: 17px;
+			position: absolute;
+			top: 50%;
+			left:10%;
+			transform: translate(-10%,-50%);
+		}
+	}
+}
